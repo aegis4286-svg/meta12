@@ -12,5 +12,5 @@ h1 + p {
 }
 /* 일반 형제 선택자 */
 h1 ~ p {
-    border-left: 4px solid gray;
+    border-left: 4px solid red;
 }

@@ -1,10 +1,6 @@
 /* 자손 선택자 */
 div p {
-<<<<<<< HEAD
-    color:blue ;
-=======
     color: blue;
->>>>>>> d0038e79a2225b72b8b91e38b0d5120efc055a6c
 }
 /* 자식 선택자 */
 div > p {
@@ -12,11 +8,7 @@ div > p {
 }
 /* 인접 형제 선택자 */
 h1 + p {
-<<<<<<< HEAD
-    font-weight:bold;
-=======
     font-weight: bold;
->>>>>>> d0038e79a2225b72b8b91e38b0d5120efc055a6c
 }
 /* 일반 형제 선택자 */
 h1 ~ p {

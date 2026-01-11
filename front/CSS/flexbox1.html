@@ -12,24 +12,23 @@
       }
 
       body {
-        height: 100vh; 
-        font-family: Arial, sans-serif;
+        height: 100vh;
+        font-family: sans-serif;
       }
 
       /* 전체 대시보드 */
       .dashboard {
         display: flex;
-        height: 100%; /*부모가 100vh(화면높이 전체)를 차지하므로 그 공간을 100% 사용하겠다 */
+        height: 100%; /* 부모가 100vh(화면높이전체)를 차지하므로 그 공간을 100% 사용하겠다 */
       }
 
       /* 왼쪽 네비게이션 */
       .nav {
-        /* flex: 0 0 220px; */
         width: 220px;
-        background: #1e272e;
+        /* flex: 0 0 220px; */
+        background-color: #1e272e;
         color: white;
         padding: 20px;
-
       }
 
       /* 오른쪽 전체 영역 */
@@ -42,7 +41,7 @@
       /* 상단바 */
       .topbar {
         background-color: #485460;
-        height:  60px;
+        height: 60px;
         padding: 20px;
         color: white;
       }
@@ -50,10 +49,10 @@
       /* 콘텐츠 영역 */
       .content {
         display: flex;
-        background-color: rgb(131, 123, 123);
+        background-color: #d2dae2;
+        flex: 1;
         gap: 15px;
         padding: 20px;
-        flex: 1;
       }
 
       /* 메인 콘텐츠 */
@@ -75,7 +74,7 @@
         background-color: #808e9b;
         height: 40px;
         color: white;
-        /* <아래 3줄> 가운데 배치시키는 공식!!!*/
+        /* <아래3줄> 가운데 배치시키는 공식!!! */
         display: flex;
         justify-content: center;
         align-items: center;

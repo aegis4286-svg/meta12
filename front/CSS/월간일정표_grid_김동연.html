@@ -5,40 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .monthly-planner {
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
             display: grid;
-            grid-template-columns: repeat(7, 2fr);
-            max-width: 600px;
-            border-top: 1.5px solid grey;
-            border-left: 1.5px solid grey;
+            grid-template-columns: repeat(7, 1fr);
+            border-top: 1px solid grey;
+            border-left: 1px solid grey;
+            max-width: 700px;
         }
         .cell {
-            border-right: 1.5px solid grey;
-            border-bottom: 1.5px solid grey;
+            border-right: 1px solid grey;
+            border-bottom: 1px solid grey;
+            text-align: center;
             padding: 10px;
-            font-size: 15;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            font-size: 15px;
         }
         .header {
-            background-color: #7dc3e6;
+            background-color: #a5cbde;
             color: black;
             font-weight: bold;
-            display: flex;
             justify-content: center;
             align-items: center;
+            border-bottom: 2px solid grey;
         }
-        .h2 {
+        .weekend {
+            /* background-color: rgb(226, 153, 80); */
+        }
+        h1 {
+            color: white;
+            background-color: rgb(54, 54, 211);
             text-align: center;
-            width: 600px
+            font-size: 40px;
+            width: 700px;
         }
-
     </style>
 </head>
 <body>
-    <h2>2026년 01월</h2>
-    <div class="monthly-planner">
+    <h1>2026년 1월</h1>
+    <div class="container">
         <div class="cell header">일</div>
         <div class="cell header">월</div>
         <div class="cell header">화</div>
@@ -47,45 +55,45 @@
         <div class="cell header">금</div>
         <div class="cell header">토</div>
 
-        <div class="cell "></div>
-        <div class="cell "></div>
-        <div class="cell "></div>
-        <div class="cell "></div>
-        <div class="cell ">1<br>신년 휴일</div>
-        <div class="cell ">2<br>휴강</div>
-        <div class="cell ">3<br></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell">1 <br><br> 신년 휴일</div>
+        <div class="cell">2 <br><br>휴강</div>
+        <div class="cell weekend ">3</div>
 
-        <div class="cell">4</div>
-        <div class="cell">5 HTML</div>
-        <div class="cell">6 HTML</div>
-        <div class="cell">7 CSS</div>
-        <div class="cell">8 CSS</div>
-        <div class="cell">9 CSS</div>
-        <div class="cell">10</div>
+        <div class="cell weekend">4</div>
+        <div class="cell">5<br><br>HTML</div>
+        <div class="cell">6<br><br>HTML</div>
+        <div class="cell">7<br><br>CSS</div>
+        <div class="cell">8<br><br>CSS</div>
+        <div class="cell">9<br><br>CSS</div>
+        <div class="cell weekend">10</div>
 
-        <div class="cell">11</div>
-        <div class="cell">12 CSS</div>
-        <div class="cell">13 개인웹페이지설계</div>
-        <div class="cell">14 Javascript</div>
-        <div class="cell">15 Javascript</div>
-        <div class="cell">16 Javascript</div>
-        <div class="cell">17</div>
+        <div class="cell weekend">11</div>
+        <div class="cell">12<br><br>CSS</div>
+        <div class="cell">13<br><br>개인 웹페이지 설계</div>
+        <div class="cell">14<br><br>Javascript</div>
+        <div class="cell">15<br><br>Javascript</div>
+        <div class="cell">16<br><br>Javascript</div>
+        <div class="cell weekend">17</div>
 
-        <div class="cell">18</div>
-        <div class="cell">19 Javascript</div>
-        <div class="cell">20 Javascript</div>
-        <div class="cell">21 개인웹페이지만들기</div>
-        <div class="cell">22 개인웹페이지만들기</div>
-        <div class="cell">23 개인웹페이지만들기</div>
-        <div class="cell">24</div>
+        <div class="cell weekend">18</div>
+        <div class="cell">19<br><br>Javascript</div>
+        <div class="cell">20<br><br>Javascript</div>
+        <div class="cell">21<br><br>개인 웹 페이지 만들기</div>
+        <div class="cell">22<br><br>개인 웹 페이지 만들기</div>
+        <div class="cell">23<br><br>개인 웹 페이지 만들기</div>
+        <div class="cell weekend">24</div>
 
-        <div class="cell footer">25</div>
-        <div class="cell footer">26 과정마무리테스트</div>
-        <div class="cell footer">27</div>
-        <div class="cell footer">28</div>
-        <div class="cell footer">29</div>
-        <div class="cell footer">30</div>
-        <div class="cell footer">31</div>
+        <div class="cell weekend">25</div>
+        <div class="cell">26<br><br>과정 마무리 테스트</div>
+        <div class="cell">27<br><br></div>
+        <div class="cell">28<br><br></div>
+        <div class="cell">29<br><br></div>
+        <div class="cell">30<br><br></div>
+        <div class="cell weekend">31<br><br></div>
     </div>
 </body>
 </html>
